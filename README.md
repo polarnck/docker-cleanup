@@ -2,6 +2,11 @@
 
 A diagnosis-first Agent Skill for reclaiming Docker disk space without losing data. It looks at containers, images, volumes, networks and build cache, explains what is safe to remove, asks how deep you want to go, and removes only what you approve.
 
+Vibecoded and expanded version of my local skill. Point your agent at it and it
+will handle the rest. Remember to always check the output and don't execute anything if you don't understand it - you may lose data.
+
+Built by [@polarnck](https://x.com/polarnck) 
+
 ## What it does
 
 - Shows what is using space and how old it is.
