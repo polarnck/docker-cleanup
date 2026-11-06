@@ -1,4 +1,4 @@
-# Docker Cleanup
+# Docker Cleanup SKILL
 
 A diagnosis-first Agent Skill for reclaiming Docker disk space without losing data. It looks at containers, images, volumes, networks and build cache, explains what is safe to remove, asks how deep you want to go, and removes only what you approve.
 
