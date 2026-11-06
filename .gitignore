@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Logs and local state
+*.log
+calls.log
+state.json
+state.json.tmp
+.docker-cleanup/
+docker-cleanup-state/
+*.plan.json
+*.plan.md
+
+# Test artifacts
+test-results/
+.coverage
+htmlcov/
+coverage.xml
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
